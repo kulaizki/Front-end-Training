@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@700&family=Quicksand:wght@500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('images/homebg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.rightbox {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    text-align: center;
+    width: 40rem;
+}
+
+.rightbox a {
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Almarai', sans-serif;
+}
+
+.rightbox a:hover {
+    color: #c5c9c5;
+    cursor: pointer;
+}
+
+.botbox img:hover {
+    opacity: 65%;
+    cursor: pointer;
+}
+
+.home {
+    margin-left: 70rem;
+}
+
+
+.container{
+    position: absolute;
+}
+
+.container .slide-container .slider{
+    width: 153rem;
+    min-height: 59rem;
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    animation: slideContent .2s linear .4s backwards;
+}
+
+.container .slide-container .slider .box{
+    background-color: rgba(54, 52, 52, 0.5);
+    color: white;
+    padding: 2rem;
+    height: 45rem;
+    width: 32%;
+    position: absolute;
+    text-align: justify;
+    margin-bottom: auto;
+    border-radius: 4rem;
+}
+
+.container .slide-container .slider .box .btn{
+    margin-top: 10px;
+    width: 18rem;
+    display: block;
+    background-color: #537254;
+    color: white;
+    font-size: 22px;
+    padding: 9px 40px;
+    border-radius: 1.2rem;
+    font-family: 'Secular One', sans-serif;
+    text-decoration: none;
+}
+
+.container .slide-container .slider .box .btn:hover{
+    cursor: pointer;
+    background-color: #354B36;
+    color: #cfcfcf;
+}
+
+@keyframes slideContent{
+    0%
+    {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+.container .slide-container .slider .image{
+    width: 500px;
+    height: 347px;
+    margin-top: 15rem;
+    margin-left: 77rem;
+    object-position: right center;
+    
+}
+
+.container .slide-container .slider .image img{
+    width: 500px;
+    height: 347px;
+    
+}
+
+.container .slide-container .slider h1 {
+    font-size: 6rem;
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.container .slide-container .slider h2 {
+    font-family: 'Almarai', sans-serif;
+    font-size: 2.35rem;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.container .slide-container .slider span {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.container .slide-container{
+    display: none;
+}
+
+.container .slide-container.active{
+    display: block;
+}
+
+
+.botbox {
+    padding: 1rem;
+    position: absolute;
+    text-align: left;
+    margin: auto;
+}
+
+
