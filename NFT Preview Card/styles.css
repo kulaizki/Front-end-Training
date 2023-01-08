@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    font-size: 11px;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 535px;
+    margin: 90px 570px;
+    justify-content: center;
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.container img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.nft {
+    position: relative;
+    width: 360px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    color:none;
+}
+
+.nft img.nft-hover {
+    position: absolute;
+    top: 123px;
+    right: 125px;
+    width:50px;
+    height:auto;
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+
+.nft:hover img {
+    opacity: 1;
+    cursor:pointer;
+}
+
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+
+.equilibrium:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.description {
+    font-weight: 10;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.flex img {
+    padding-right: 5px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.duration {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+.creator {
+    display: flex;
+}
+
+.creator img {
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1.5px solid white;
+}
+
+.creator p {
+    margin-top: 18px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.white:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.white {
+    color: white;
+}
+
+.attribution {
+    margin-top: -3.7%;
+    margin-left: -18px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.attribution a {
+    color: hsl(228, 66%, 69%);
+}
