@@ -24,6 +24,8 @@ body {
 h3 {
     color: #fff;
     margin: 1rem 0 2rem;
+    text-align: center;
+    font-size: 1.9rem;
 }
 
 .container {
