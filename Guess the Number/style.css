@@ -75,6 +75,16 @@ a {
     cursor: pointer;
 }
 
+.game-container {
+    display: flex;
+    position: absolute;
+    background-color: rgb(245, 215, 23);
+    height: 45rem;
+    width: 95rem;
+    border-radius: 1rem;
+    opacity: 0;
+}
+
 h2 {
     font-size: 3.3rem;
     color: azure;
